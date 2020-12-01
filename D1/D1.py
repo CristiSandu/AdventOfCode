@@ -1,7 +1,6 @@
 f = open("input.txt", "r")
 
 l = list()
-
 for x in f:
     l.append(int(x))
 
