@@ -54,8 +54,8 @@ def function_verify(dictionaryFunc):
 f = open("inputd4.txt", "r")
 
 l = list()
-pattern_hcl = re.compile("^#([a-f0-9]{6})$")
-pattern_pid = re.compile("^[0-9]{9}$")
+pattern_hcl = re.compile("#([a-f0-9]{6})$")
+pattern_pid = re.compile("[0-9]{9}$")
 ecl_dic = {
     "amb" : 1,
     "blu" : 1,
@@ -90,5 +90,3 @@ if function_verify(dictionary) == True:
     nr += 1
 
 print(nr)
-
-

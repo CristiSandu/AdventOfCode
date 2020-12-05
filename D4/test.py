@@ -15,7 +15,7 @@ if value2 not in ecl_dic:
     print("nu este")
 else :
     print("este")
-value = "#123abc"
+value = "z"
 pattern_hcl = re.compile("^#([a-f0-9]{6})$")
 if (pattern_hcl.match(value)):
     print("yes")
